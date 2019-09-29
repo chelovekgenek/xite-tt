@@ -11,7 +11,6 @@ function* handleNext() {
   }
   const selected: ReturnType<typeof getSelected> = yield select(getSelected)
   const selectedIndex = list.findIndex(item => item.id === selected)
-  console.log(selectedIndex, list.length)
   if (selectedIndex < 0 || selectedIndex === list.length - 1) {
     yield put(VideoSelectedActions.set(list[0].id))
   } else {
