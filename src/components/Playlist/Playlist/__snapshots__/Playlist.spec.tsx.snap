@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Playlist renders correctly 1`] = `
+<styled.ul>
+  <Connect(WithFormik(NewRecord)) />
+  <Connect(Records) />
+</styled.ul>
+`;

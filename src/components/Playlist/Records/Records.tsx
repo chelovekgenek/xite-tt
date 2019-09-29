@@ -14,18 +14,16 @@ interface IDispatchProps {
 }
 interface IProps extends IStateProps, IDispatchProps {}
 
-export const Records: React.FC<IProps> = ({ videos, selected, select }) => {
-  return (
-    <React.Fragment>
-      {videos.map(({ id, title }) => (
-        <List.Item key={id} onClick={() => select(id)}>
-          {selected === id && <Icon type="caret-right" />}
-          {title}
-        </List.Item>
-      ))}
-    </React.Fragment>
-  )
-}
+export const Records: React.FC<IProps> = ({ videos, selected, select }) => (
+  <React.Fragment>
+    {videos.map(({ id, title }) => (
+      <List.Item key={id} onClick={() => select(id)}>
+        {selected === id && <Icon type="caret-right" />}
+        {title}
+      </List.Item>
+    ))}
+  </React.Fragment>
+)
 
 export default connect<IStateProps, IDispatchProps, {}, TAppState>(
   state => ({

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<Form>
+  <Input
+    label="Title"
+    name="title"
+  />
+  <Input
+    label="Artist"
+    name="artist"
+  />
+  <Input
+    label="Video URL"
+    name="src"
+  />
+</Form>
+`;

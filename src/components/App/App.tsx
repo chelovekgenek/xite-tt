@@ -7,9 +7,6 @@ import { Player } from "components/Player"
 
 import { GlobalStyles, MainLayout, Col } from "./App.styled"
 
-import "antd/dist/antd.css"
-import "video-react/dist/video-react.css"
-
 export const App: React.FC = () => (
   <Provider store={store}>
     <MainLayout>

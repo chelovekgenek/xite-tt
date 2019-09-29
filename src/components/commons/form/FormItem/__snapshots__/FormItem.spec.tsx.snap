@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormItem renders correctly 1`] = `
+<Row
+  gutter={0}
+  type="flex"
+>
+  <Col
+    span={4}
+  >
+    asd
+  </Col>
+  <Col
+    span={20}
+  >
+    <Styled(FormItem)>
+      <Component />
+    </Styled(FormItem)>
+  </Col>
+</Row>
+`;

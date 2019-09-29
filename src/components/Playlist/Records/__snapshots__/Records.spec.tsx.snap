@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Records adds icon if selected id is equal to video id 1`] = `
+<Fragment>
+  <styled.li
+    key="1"
+    onClick={[Function]}
+  >
+    <Icon
+      type="caret-right"
+    />
+    asd
+  </styled.li>
+</Fragment>
+`;
+
+exports[`Records renders correctly 1`] = `
+<Fragment>
+  <styled.li
+    key="1"
+    onClick={[Function]}
+  >
+    asd
+  </styled.li>
+</Fragment>
+`;

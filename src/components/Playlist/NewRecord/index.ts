@@ -1,3 +1,1 @@
-import NewRecord from "./NewRecord"
-
-export default NewRecord
+export { default as NewRecord } from "./NewRecord"

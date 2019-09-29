@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Player renders correctly 1`] = `
+<Fragment>
+  <h4>
+    asd
+     | 
+    dsa
+  </h4>
+  <Player
+    aspectRatio="auto"
+    autoPlay={true}
+    fluid={false}
+    height="calc(100% - 2rem)"
+    key="1"
+    muted={false}
+    playsInline={false}
+    preload="auto"
+    width="100%"
+  >
+    <source
+      src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+    />
+    <ControlBar
+      autoHide={false}
+      disableCompletely={false}
+    />
+  </Player>
+</Fragment>
+`;
+
+exports[`Player shouldn't render if nothing is selected 1`] = `""`;

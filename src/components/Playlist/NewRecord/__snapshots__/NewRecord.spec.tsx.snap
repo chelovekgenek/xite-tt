@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewRecord renders correctly 1`] = `
+<Fragment>
+  <styled.li
+    onClick={[Function]}
+  >
+    <Icon
+      type="plus"
+    />
+    Add video
+  </styled.li>
+  <Modal
+    closable={false}
+    confirmLoading={false}
+    maskTransitionName="fade"
+    okButtonProps={
+      Object {
+        "disabled": true,
+      }
+    }
+    okText="Submit"
+    okType="primary"
+    onCancel={[Function]}
+    onOk={[Function]}
+    transitionName="zoom"
+    visible={false}
+    width={520}
+  >
+    <NewRecordForm />
+  </Modal>
+</Fragment>
+`;

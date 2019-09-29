@@ -3,6 +3,8 @@ import ReactDOM from "react-dom"
 
 import { App } from "components/App"
 import * as serviceWorker from "./serviceWorker"
+import "antd/dist/antd.css"
+import "video-react/dist/video-react.css"
 
 ReactDOM.render(<App />, document.getElementById("root"))
 

@@ -36,7 +36,7 @@ export const Player: React.FC<IProps> = ({ selected, next }) => {
       <h4>
         {selected.title} | {selected.artist}
       </h4>
-      <VideoPlayer ref={player} autoPlay key={selected.id} fluid={false} width={"100%"} height={"calc(100% - 2rem)"}>
+      <VideoPlayer autoPlay ref={player} key={selected.id} fluid={false} width={"100%"} height={"calc(100% - 2rem)"}>
         <source src={selected.src} />
         <ControlBar autoHide={false} />
       </VideoPlayer>
