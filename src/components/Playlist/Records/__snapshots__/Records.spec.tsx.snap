@@ -11,6 +11,12 @@ exports[`Records adds icon if selected id is equal to video id 1`] = `
     />
     asd
   </styled.li>
+  <styled.li
+    key="2"
+    onClick={[Function]}
+  >
+    zxc
+  </styled.li>
 </Fragment>
 `;
 
@@ -21,6 +27,12 @@ exports[`Records renders correctly 1`] = `
     onClick={[Function]}
   >
     asd
+  </styled.li>
+  <styled.li
+    key="2"
+    onClick={[Function]}
+  >
+    zxc
   </styled.li>
 </Fragment>
 `;

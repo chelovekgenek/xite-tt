@@ -1,10 +1,10 @@
-import { takeLatest, put, select } from "redux-saga/effects"
+import { takeLatest, put, select, call } from "redux-saga/effects"
 
 import { VideoSelectedTypes } from "./types"
 import { getList, getSelected } from "./selectors"
 import { VideoSelectedActions } from "./actions"
 
-function* handleNext() {
+export function* handleNext() {
   const list: ReturnType<typeof getList> = yield select(getList)
   if (!list.length) {
     return

@@ -5,6 +5,6 @@ import { VideoSelectedActions } from "../actions"
 
 export type TState = IVideo["id"]
 
-const initialState: TState = ""
+export const initialState: TState = ""
 
 export default reducer(initialState, on(VideoSelectedActions.set, (state, { payload }) => payload))

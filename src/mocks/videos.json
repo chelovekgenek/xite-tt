@@ -4,5 +4,11 @@
     "title": "asd",
     "artist": "dsa",
     "src": "https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+  },
+  {
+    "id": "2",
+    "title": "zxc",
+    "artist": "qwe",
+    "src": "https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
   }
 ]
